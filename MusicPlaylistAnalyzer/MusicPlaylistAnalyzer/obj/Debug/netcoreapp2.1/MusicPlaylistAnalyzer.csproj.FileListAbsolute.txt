@@ -1,0 +1,10 @@
+/Users/danaenash/Desktop/MusicPlaylistAnalyzer/MusicPlaylistAnalyzer/bin/Debug/netcoreapp2.1/MusicPlaylistAnalyzer.deps.json
+/Users/danaenash/Desktop/MusicPlaylistAnalyzer/MusicPlaylistAnalyzer/bin/Debug/netcoreapp2.1/MusicPlaylistAnalyzer.runtimeconfig.json
+/Users/danaenash/Desktop/MusicPlaylistAnalyzer/MusicPlaylistAnalyzer/bin/Debug/netcoreapp2.1/MusicPlaylistAnalyzer.runtimeconfig.dev.json
+/Users/danaenash/Desktop/MusicPlaylistAnalyzer/MusicPlaylistAnalyzer/bin/Debug/netcoreapp2.1/MusicPlaylistAnalyzer.dll
+/Users/danaenash/Desktop/MusicPlaylistAnalyzer/MusicPlaylistAnalyzer/bin/Debug/netcoreapp2.1/MusicPlaylistAnalyzer.pdb
+/Users/danaenash/Desktop/MusicPlaylistAnalyzer/MusicPlaylistAnalyzer/obj/Debug/netcoreapp2.1/MusicPlaylistAnalyzer.csproj.CoreCompileInputs.cache
+/Users/danaenash/Desktop/MusicPlaylistAnalyzer/MusicPlaylistAnalyzer/obj/Debug/netcoreapp2.1/MusicPlaylistAnalyzer.AssemblyInfoInputs.cache
+/Users/danaenash/Desktop/MusicPlaylistAnalyzer/MusicPlaylistAnalyzer/obj/Debug/netcoreapp2.1/MusicPlaylistAnalyzer.AssemblyInfo.cs
+/Users/danaenash/Desktop/MusicPlaylistAnalyzer/MusicPlaylistAnalyzer/obj/Debug/netcoreapp2.1/MusicPlaylistAnalyzer.dll
+/Users/danaenash/Desktop/MusicPlaylistAnalyzer/MusicPlaylistAnalyzer/obj/Debug/netcoreapp2.1/MusicPlaylistAnalyzer.pdb
