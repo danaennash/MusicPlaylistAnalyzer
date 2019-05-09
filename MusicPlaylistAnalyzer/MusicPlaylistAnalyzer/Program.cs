@@ -59,7 +59,7 @@ namespace MusicPlaylistAnalyzer
 
                             if (col.Length > 9)
                             {
-                                Console.WriteLine("Improper amount of Columns.");
+                                Console.WriteLine("Invalid number of columns.");
                                 break;
                             }
                             else
@@ -70,7 +70,7 @@ namespace MusicPlaylistAnalyzer
                         }
                         catch
                         {
-                            Console.Write("Error.");
+                            Console.Write("Invalid.");
                             break;
                         }
                     }
@@ -78,13 +78,13 @@ namespace MusicPlaylistAnalyzer
                 }
                 else
                 {
-                    Console.WriteLine("Sorry, the file was not found.");
+                    Console.WriteLine("file not found.");
                 }
 
             }
             catch (Exception)
             {
-                Console.WriteLine("Sorry, the file cannot be opened.");
+                Console.WriteLine("unable to open file.");
             }
 
             try
@@ -96,7 +96,7 @@ namespace MusicPlaylistAnalyzer
                     write.WriteLine("");
 
 
-
+                    //Question 1
                     var plays = from song in songs where song.Plays >= 200 select song;
                     report += "Songs that received 200 or more plays:\n";
                     foreach (Song song in plays)
@@ -104,7 +104,7 @@ namespace MusicPlaylistAnalyzer
                         report += song + "\n";
                     }
 
-
+                    //Question 2
                     var alternative = from song in songs where song.Genre == "Alternative" select song;
                     i = 0;
                     foreach (Song song in alternative)
@@ -113,7 +113,7 @@ namespace MusicPlaylistAnalyzer
                     }
                     report += "Number of Alternative songs: {i} \n";
 
-
+                    //Question 3
                     var rap = from song in songs where song.Genre == "Hip-Hop/Rap" select song;
                     i = 0;
                     foreach (Song song in rap)
@@ -122,7 +122,7 @@ namespace MusicPlaylistAnalyzer
                     }
                     report += "Number of Hip-Hop/Rap songs: {i}\n";
 
-
+                    //Question 4
                     var fishbowl = from song in songs where song.Album == "Welcome to the Fishbowl" select song;
                     report += "Songs from the album Welcome to the Fishbowl:\n";
                     foreach (Song song in fishbowl)
@@ -130,7 +130,7 @@ namespace MusicPlaylistAnalyzer
                         report += song + "\n";
                     }
 
-
+                    //Question 5
                     var songs1970 = from song in songs where song.Year < 1970 select song;
                     report += "Songs from before 1970:\n";
                     foreach (Song song in songs1970)
@@ -138,7 +138,7 @@ namespace MusicPlaylistAnalyzer
                         report += song + "\n";
                     }
 
-
+                    //Question 6
                     var names = from song in songs where song.Name.Length > 85 select song.Name;
                     report += "Song names longer than 85 characters:\n";
                     foreach (string name in names)
@@ -146,7 +146,7 @@ namespace MusicPlaylistAnalyzer
                         report += name + "\n";
                     }
 
-
+                    //Question 7
                     var longest = from song in songs orderby song.Time descending select song;
                     report += "Longest song:\n";
                     report += longest.First();
